@@ -1,0 +1,76 @@
+<style type="text/css">
+    .TFtable{
+        width:100%; 
+        border-collapse:collapse; 
+    }
+    .TFtable td{ 
+        padding:2px;
+        border:#AAAAAA 1px solid;
+    }
+    /* provide some minimal visual accomodation for IE8 and below */
+    .TFtable tr{
+        background: #CCCCCC;
+    }
+    /*  Define the background color for all the ODD background rows  */
+    .TFtable tr:nth-child(odd){ 
+        background: #CCCCCC;
+    }
+    /*  Define the background color for all the EVEN background rows  */
+    .TFtable tr:nth-child(even){
+        background: #FFFFFF;
+    }
+</style>
+The Freescale <b>TWR-LS1021A</b> module is a development system based on the QorIQ LS1021A processor.
+<br>
+Specifications:
+<table class="TFtable">
+    <tr>
+        <td valign="top">
+            <b>CPU</b>
+        </td>
+        <td>
+            QorIQ LS1021A
+        </td>
+    </tr>
+    <tr>
+        <td valign="top">
+            <b>MEMORY</b>
+        </td>
+        <td>
+            1 Gb Parallel NOR Flash<br>
+            128 Mb Quad SPI Flash<br>
+            1 GB DDR3L<br>
+            Full-size SDHC slot—up to 32 GB
+        </td>
+    </tr>
+    <tr>
+        <td valign="top">
+            <b>Network</b>
+        </td>
+        <td>
+            2x 1GBaseT Ethernet (SGMII)<br>
+            1x 1GBaseT Ethernet (RGMII)<br>
+            2x mini PCIe (x1) connectors (802.11ac/n/g, combo 802.11/Bluetooth, 802.15.4, 6Lowpan)<br>
+            1x mSATA 3.0 slot
+        </td>
+    </tr>
+    <tr>
+        <td valign="top">
+            <b>USB 3.0</b>
+        </td>
+        <td>
+            2x ports—USB-type A<br>
+            2x ports to mini PCIe slots (LTE/4G cellular radios)
+        </td>
+    </tr>
+    <tr>
+        <td valign="top">
+            <b>Video</b>
+        </td>
+        <td>
+            24-bit RGB LCD Interface<br>
+            1x HDMI connector<br>
+            2x QE UART to TWR-ELEV for PROFIBUS or RS485 (external transceiver needed)
+        </td>
+    </tr>
+</table>

@@ -1,0 +1,1 @@
+The Freescale <b>TWR-LS1021A</b> module is a development system based on the QorIQ LS1021A processor.

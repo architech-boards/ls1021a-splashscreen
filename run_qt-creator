@@ -1,0 +1,3 @@
+#!/bin/bash
+zenity --error --text="No QT for TWR-LS1021A!"
+exit 0

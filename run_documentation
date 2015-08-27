@@ -1,0 +1,5 @@
+#!/bin/bash
+
+firefox http://www.freescale.com/infocenter/index.jsp?topic=%2FQORIQSDK%2F2880375.html
+
+exit 0

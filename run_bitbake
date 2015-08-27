@@ -1,0 +1,5 @@
+#!/bin/bash
+cd ../yocto
+source poky/fsl-setup-poky -m ls1021atwr
+gnome-terminal
+exit 0
