@@ -60,6 +60,19 @@ chmod 777 pre-script.sh
 ./pre-script.sh
 rm pre-script.sh
 
+###########################################################################################################
+# Yocto installation
+
+cd ${ROOT_DIRECTORY}
+mkdir -p ${YOCTO_DIRECTORY}
+cd ${YOCTO_DIRECTORY}
+if [ ! -d .repo ]
+then
+    repo init -u https://github.com/architech-boards/ls1021a-manifest.git -b daisy -m manifest.xml > /dev/null 2>&1
+    [ $? -eq 0 ] || { rm -rf .repo; internet_error; }
+fi
+repo sync > /dev/null 2>&1
+source poky/fsl-setup-poky -m ls1021atwr
 
 ###########################################################################################################
 # Script post-install
