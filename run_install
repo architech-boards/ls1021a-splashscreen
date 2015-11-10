@@ -54,7 +54,7 @@ WGET_TIMEOUT=60
 # Script pre-install
 
 cd $BASEROOT_SDK
-wget --timeout=${WGET_TIMEOUT} ${URL_DOWNLOAD}/ls1021atwr/script/daisy/pre-script.sh
+wget --timeout=${WGET_TIMEOUT} ${URL_DOWNLOAD}/twr-ls1021a/script/daisy/pre-script.sh
 [ $? -eq 0 ] || { internet_error; }
 chmod 777 pre-script.sh
 ./pre-script.sh
@@ -78,7 +78,7 @@ source poky/fsl-setup-poky -m ls1021atwr
 # Script post-install
 
 cd $BASEROOT_SDK
-wget --timeout=${WGET_TIMEOUT} ${URL_DOWNLOAD}/ls1021atwr/script/daisy/post-script.sh
+wget --timeout=${WGET_TIMEOUT} ${URL_DOWNLOAD}/twr-ls1021a/script/daisy/post-script.sh
 [ $? -eq 0 ] || { internet_error; }
 chmod 777 post-script.sh
 ./post-script.sh
